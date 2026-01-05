@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar  -->
+
+    <nav>
+      <ul class="nav-left">
+        <li>
+          <svg height="32" viewBox="0 0 16 16" width="32" fill="white">
+            <path
+              d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"
+            ></path>
+          </svg>
+        </li>
+        <li class="logo-text">CLI</li>
+      </ul>
+      <ul class="nav-right">
+        <li>Manual</li>
+        <li>Release notes</li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <section class="hero-sec">
+      <div class="hero-sec-center-wrapper">
+        <div class="hero-sec-main-div">
+          <h1>Take GitHub to the command line</h1>
+          <p>
+            GitHub CLI brings GitHub to your terminal. Free and open source.
+          </p>
+
+          <div class="hero-sec-btn-div">
+            <a href="#" class="btn-download">Download for Windows</a>
+            <a href="#" class="inst-link">View installation instructions →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+
+    <section class="video-sec">
+      <h2>
+        <span style="color: #2f81f7; padding-right: 17px">$</span>
+        <span style="color: #e6edf3">gh issue list</span>
+      </h2>
+
+      <p>View and filter a repository's open issues.</p>
+
+      <div class="video-sec-terminal-div">
+        <div class="terminal-header-div">
+          <div class="terminal-header-left-div">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+
+          <div class="terminal-header-right-div">
+            <ul>
+              <li>
+                <svg
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  class="octicon"
+                  fill="white"
+                >
+                  <path
+                    d="M9.5 15.584V8.416a.5.5 0 0 1 .77-.42l5.576 3.583a.5.5 0 0 1 0 .842l-5.576 3.584a.5.5 0 0 1-.77-.42Z"
+                  ></path>
+                  <path
+                    d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12Zm11-9.5A9.5 9.5 0 0 0 2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5Z"
+                  ></path>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="terminal-body-div">
+          <p>
+            <span style="margin-right: 5px">$</span> <span>gh issue list</span>
+          </p>
+
+          <div class="terminal-body-content-div">
+            <p>Showing 4 of 4 issues in cli/cli</p>
+            <br />
+            <span class="content-line">
+              <span
+                class="d-inline-block text-green line-number"
+                style="width: 30px"
+                >#16</span
+              >
+              <span class="line-para"
+                >Improving interactions with protected branches</span
+              >
+            </span>
+            <br />
+            <span class="content-line">
+              <span
+                class="d-inline-block text-green line-number"
+                style="width: 30px"
+                >#14</span
+              >
+              <span class="line-para">PR commands on a detached head</span>
+            </span>
+            <br />
+            <span class="content-line text-gray">
+              <span
+                class="d-inline-block line-number"
+                style="width: 30px; color: green"
+                >#13</span
+              >
+              <span class="line-para">Support for GitHub Enterprise</span>
+              (enhancement)
+            </span>
+            <br />
+            <span class="content-line text-gray">
+              <span
+                class="d-inline-block line-number"
+                style="width: 30px; color: green"
+                >#8</span
+              >
+              <span class="line-para">Add an easier upgrade command</span> (bug)
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cli-command-div">
+        <a> View all GitHub CLI commands → </a>
+      </div>
+    </section>
+
+    <!-- GoodBye Section -->
+
+    <section>
+      <div class="goodbye-sec-main-div">
+        <div class="goodbye-sec">
+          <div class="goodbye-sec-heading">
+            <p>Goodbye, context switching. Hello, terminal.</p>
+          </div>
+
+          <div class="goodbye-sec-card-main-div">
+            <div class="goodbye-sec-cards">
+              <h3>Your entire GitHub workflow</h3>
+              <p>Work with issues, pull requests, checks, releases and more.</p>
+              <a href="#">View all GitHub CLI commands →</a>
+            </div>
+
+            <div class="goodbye-sec-cards">
+              <h3>Script and customize</h3>
+              <p>
+                Call the GitHub API to script almost any action, and set a
+                custom alias for any command.
+              </p>
+              <a href="#">Learn about aliases and API →</a>
+            </div>
+
+            <div class="goodbye-sec-cards">
+              <h3>Enterprise-ready</h3>
+              <p>
+                Connect to GitHub Enterprise Server in addition to GitHub.com.
+              </p>
+              <a href="#">Get set up with Enterprise →</a>
+            </div>
+
+            <div class="goodbye-sec-cards">
+              <h3>We 3 community</h3>
+              <p>GitHub CLI is open source and ready for your contributions.</p>
+              <a href="#">Contribute to CLI →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+
+    <section>
+      <div class="download-sec-main-div">
+        <div class="download-sec-div">
+          <div class="download-sec-content">
+            <h2>Try GitHub on the command line</h2>
+            <p>
+              GitHub CLI brings GitHub to your terminal. Free and open source.
+            </p>
+            <a class="btn" href="#">Download for Windows</a>
+            <div class="link">
+              <a href="#">View installation instructions →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="footer-main-div">
+        <div class="footer-logo">
+          <a href="#">
+            <svg viewBox="0 0 45 16" width="84" height="30" class="octicon octicon-logo-github" aria-hidden="true">
+              <path d="M8.81 7.35v5.74c0 .04-.01.11-.06.13 0 0-1.25.89-3.31.89-2.49 0-5.44-.78-5.44-5.92S2.58 1.99 5.1 2c2.18 0 3.06.49 3.2.58.04.05.06.09.06.14L7.94 4.5c0 .09-.09.2-.2.17-.36-.11-.9-.33-2.17-.33-1.47 0-3.05.42-3.05 3.73s1.5 3.7 2.58 3.7c.92 0 1.25-.11 1.25-.11v-2.3H4.88c-.11 0-.19-.08-.19-.17V7.35c0-.09.08-.17.19-.17h3.74c.11 0 .19.08.19.17Zm35.85 2.33c0 3.43-1.11 4.41-3.05 4.41-1.64 0-2.52-.83-2.52-.83s-.04.46-.09.52c-.03.06-.08.08-.14.08h-1.48c-.1 0-.19-.08-.19-.17l.02-11.11c0-.09.08-.17.17-.17h2.13c.09 0 .17.08.17.17v3.77s.82-.53 2.02-.53l-.01-.02c1.2 0 2.97.45 2.97 3.88ZM27.68 2.43c.09 0 .17.08.17.17v11.11c0 .09-.08.17-.17.17h-2.13c-.09 0-.17-.08-.17-.17l.02-4.75h-3.31v4.75c0 .09-.08.17-.17.17h-2.13c-.08 0-.17-.08-.17-.17V2.6c0-.09.08-.17.17-.17h2.13c.09 0 .17.08.17.17v4.09h3.31V2.6c0-.09.08-.17.17-.17Zm8.26 3.64c.11 0 .19.08.19.17l-.02 7.47c0 .09-.06.17-.17.17H34.6c-.07 0-.14-.04-.16-.09-.03-.06-.08-.45-.08-.45s-1.13.77-2.52.77c-1.69 0-2.92-.55-2.92-2.75V6.25c0-.09.08-.17.17-.17h2.14c.09 0 .17.08.17.17V11c0 .75.22 1.09.97 1.09s1.3-.39 1.3-.39V6.26c0-.11.06-.19.17-.19Zm-17.406 5.971h.005a.177.177 0 0 1 .141.179v1.5c0 .07-.03.14-.09.16-.1.05-.74.22-1.27.22-1.16 0-2.86-.25-2.86-2.69V8.13h-1.11c-.09 0-.17-.08-.17-.19V6.58c0-.08.05-.15.13-.17.07-.01 1.16-.28 1.16-.28V3.96c0-.08.05-.13.14-.13h2.16c.09 0 .14.05.14.13v2.11h1.59c.08 0 .16.08.16.17v1.7c0 .11-.07.19-.16.19h-1.59v3.131c0 .47.27.83 1.05.83.247 0 .481-.049.574-.05ZM12.24 6.06c.09 0 .17.08.17.17v7.37c0 .18-.05.27-.25.27h-1.92c-.17 0-.3-.07-.3-.27V6.26c0-.11.08-.2.17-.2Zm29.99 3.78c0-1.81-.73-2.05-1.5-1.97-.6.04-1.08.34-1.08.34v3.52s.49.34 1.22.36c1.03.03 1.36-.34 1.36-2.25ZM11.19 2.68c.75 0 1.36.61 1.36 1.38 0 .77-.61 1.38-1.36 1.38-.77 0-1.38-.61-1.38-1.38 0-.77.61-1.38 1.38-1.38Zm7.34 9.35v.001l.01.01h-.001l-.005-.001v.001c-.009-.001-.015-.011-.024-.011Z"></path>
+            </svg>
+          </a>
+        </div>
+
+        <div class="footer-lists-div">
+          <div class="list-one list">
+            <p>Products</p>
+            <ul>
+              <li>Features</li>
+              <li>Security</li>
+              <li>Enterprise</li>
+              <li>Customer stories</li>
+              <li>Pricing</li>
+              <li>Resources</li>
+            </ul>
+          </div>
+
+          <div class="list-two list">
+            <p>Platform</p>
+            <ul>
+              <li>Developer API</li>
+              <li>Partners</li>
+              <li>Github Mobile</li>
+              <li>Github Desktop</li>
+            </ul>
+          </div>
+
+          <div class="list-three list">
+            <p>Support</p>
+            <ul>
+              <li>Help</li>
+              <li>Cummunity Forum</li>
+              <li>Expert Service</li>
+              <li>Status</li>
+              <li>Contact Github</li>
+            </ul>
+          </div>
+
+          <div class="list-four list">
+            <p>Company</p>
+            <ul>
+              <li>About</li>
+              <li>Blog</li>
+              <li>Careers</li>
+              <li>Press</li>
+              <li>Shop</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-foot">
+        <div class="footer-foot-left">
+          <ul>
+            <li>© 2025 GitHub, Inc.</li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-foot-right">
+          <ul>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-youtube"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+            <li><i class="fa-brands fa-github"></i></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
